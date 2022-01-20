@@ -1,0 +1,21 @@
+.header {
+    height: 50px;
+    background-color: darkgray;
+    padding: 5px;
+    text-align: center;
+    color: black;    
+}
+
+.footer {
+    height: 50px;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+.main {
+    min-height: calc(100vh - 120px);
+    overflow-y: auto;
+    height: 1px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    background-color: bisque;
+}
